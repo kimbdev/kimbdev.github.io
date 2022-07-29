@@ -2,3 +2,14 @@
   display: flex;
   align-items: center;
 }
+@media screen and (min-width: 0) {
+  .projetos {
+    flex-flow: column wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projetos {
+    flex-flow: row wrap;
+  }
+}

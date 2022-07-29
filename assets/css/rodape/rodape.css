@@ -1,3 +1,7 @@
 .rodape {
-  margin-top: 4rem;
+  margin-top: 2rem;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }

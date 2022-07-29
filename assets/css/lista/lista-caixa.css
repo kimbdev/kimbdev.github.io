@@ -5,7 +5,25 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 8rem;
+    /* width: 8rem; */
     padding: 1rem 2rem;
     margin: 1rem;
+  }
+
+  @media screen and (min-width: 0) {
+    .listaBox__caixa {
+      width: 100%;
+    }
+  }
+
+  @media screen and (min-width:768px) {
+    .listaBox__caixa {
+      width: 10rem;
+    } 
+  }
+
+  @media screen and (min-width: 992px) {
+  .listaBox__caixa{
+    width: 8rem;
+  }
   }

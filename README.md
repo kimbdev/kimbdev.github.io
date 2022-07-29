@@ -1,6 +1,7 @@
 # Meu Portfólio
 
-[acessar](https://kimbdev.github.io/Portfolio)
+[Acessar](https://kimbdev.github.io/Portfolio)
 
 ## Atualizações
 - Site utiliza Atomic Design
+- Site Responsivo
