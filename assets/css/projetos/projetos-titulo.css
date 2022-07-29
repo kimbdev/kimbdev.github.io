@@ -1,0 +1,8 @@
+.projetos__conteudo__titulo {
+  margin-top: 0.5rem;
+  text-decoration: none;
+}
+
+.projetos__conteudo__titulo:visited {
+  color: var(--caixa-texto);
+}

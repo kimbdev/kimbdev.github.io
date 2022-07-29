@@ -1,0 +1,19 @@
+:root {
+  --fonte: "Montserrat", sans-serif;
+
+  --bg: #5928e5;
+  --font-color: #fff;
+
+  --caixa-borda: #d4d4d4;
+  --caixa-fundo: #fafafa;
+  --caixa-texto: #000000;
+}
+
+.container {
+  text-align: center;
+  font-family: var(--fonte);
+  background: var(--bg);
+  color: var(--font-color);
+  max-width: 1000px;
+  margin: auto;
+}

@@ -6,12 +6,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kimb_Dev</title>
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <!-- Fonte Montserrat -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,700;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+
+    <!-- Atomic-Designer -->
+
+    <!-- Base CSS -->
+    <link rel="stylesheet" href="./assets/css/main.css">
+
+    <!-- Cabeçalho -->
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-titulo.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho-subtitulo.css">
+    
+    <!-- Seção -->
+    <link rel="stylesheet" href="./assets/css/secao/secao.css">
+    <link rel="stylesheet" href="./assets/css/secao/secao-titulo.css">
+    
+    <!-- Lista(os quadrinhos) -->
+    <link rel="stylesheet" href="./assets/css/lista/lista.css">
+    <link rel="stylesheet" href="./assets/css/lista/lista-caixa.css">
+    <link rel="stylesheet" href="./assets/css/lista/lista-caixa-texto.css">
+    
+    <!-- Projetos -->
+    <link rel="stylesheet" href="./assets/css/github/github.css">
+    <link rel="stylesheet" href="./assets/css/github/github-titulo.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-conteudo.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-titulo.css">
+    <link rel="stylesheet" href="./assets/css/projetos/projetos-imagem.css">
+    
+    <!-- Contato -->
+    <link rel="stylesheet" href="./assets/css/contato/contato.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-linkedin.css">
+    <link rel="stylesheet" href="./assets/css/contato/contato-email.css">
+    
+    <!-- Rodapé -->
+    <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+    <!-- Fim Atomic-Designer -->
 </head>
 
 <body class="container">
@@ -20,58 +59,58 @@
         <h2 class="cabecalho__subtitulo">@Kimb_dev</h2>
     </header>
     <main>
-        <section class="box">
+        <section class="secao">
             <div>
-                <h1 class="box__titulo">Sobre</h1>
-                <ul class="listaBox">
+                <h1 class="secao__titulo">Sobre</h1>
+                <ul class="lista">
                     <li class="listaBox__caixa">
                         <img src="./assets/img/globo.png" />
-                        <p class="listaBox__texto">Brasil</p>
+                        <p class="lista__caixa__texto">Brasil</p>
                     </li>
                     <li class="listaBox__caixa">
                         <img src="./assets/img/genero.png" alt="Icone Transgenero">
-                        <p>Ela/Dela</p>
+                        <p class="lista__caixa__texto">Ela/Dela</p>
                     </li>
                     <li class="listaBox__caixa">
                         <img src="./assets/img/dev.png" alt="Icone Developer">
-                        <p>Front-End</p>
+                        <p class="lista__caixa__texto">Front-End</p>
                     </li>
                     <li class="listaBox__caixa">
                         <img src="./assets/img/stream.png" alt="Icone Stream">
-                        <p>Streamer</p>
+                        <p class="lista__caixa__texto">Streamer</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="box">
+        <section class="secao">
             <div>
-                <h1 class="box__titulo">Skills</h1>
-                <ul class="listaBox">
+                <h1 class="secao__titulo">Skills</h1>
+                <ul class="lista">
                     <li class="listaBox__caixa">
                         <img src="./assets/img/html.png" alt="Icone HTML">
-                        <p>HTML</p>
+                        <p class="lista__caixa__texto">HTML</p>
                     </li>
                     <li class="listaBox__caixa">
                         <img src="./assets/img/css.png" alt="Icone CSS">
-                        <p>CSS</p>
+                        <p class="lista__caixa__texto">CSS</p>
                     </li>
                     <li class="listaBox__caixa">
                         <img src="./assets/img/js.png" alt="Icone JavaScript">
-                        <p>JS</p>
+                        <p class="lista__caixa__texto">JS</p>
                     </li>
                     <li class="listaBox__caixa">
                         <img src="./assets/img/git.png" alt="Icone Git">
-                        <p>Git</p>
+                        <p class="lista__caixa__texto">Git</p>
                     </li>
                 </ul>
             </div>
         </section>
-        <section class="box">
+        <section class="secao">
             <div>
-                <h1 class="box__titulo">Projetos</h1>
-                <div class="projetos">
-                    <a href="https://github.com/kimbdev" class="projetos__titulo">Github</a>
-                    <div class="teste">
+                <h1 class="secao__titulo">Projetos</h1>
+                <div class="github">
+                    <a href="https://github.com/kimbdev" class="github__titulo">Github</a>
+                    <div class="projetos">
 
                         <div class="projetos__conteudo">
                             <a href="https://kimbdev.github.io/JS-Paginas_Dinamicas/" target="_blank"
@@ -110,11 +149,11 @@
             </div>
             </div>
         </section>
-        <section class="box">
-            <div>
-                <h1 class="box__titulo">Contato</h1>
-                <a class="linkedin" href="https://www.linkedin.com/in/kimbdev"></a>
-                <a class="email" href="mailto:kimberlyalvesdeoliveira@outlook.com"></a>
+        <section class="secao">
+            <div class="contato">
+                <h1 class="secao__titulo">Contato</h1>
+                <a class="contato__linkedin" href="https://www.linkedin.com/in/kimbdev"></a>
+                <a class="contato__email" href="mailto:kimberlyalvesdeoliveira@outlook.com"></a>
             </div>
         </section>
     </main>

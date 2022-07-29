@@ -1,0 +1,8 @@
+.github__titulo {
+  margin: 0.6rem 0 0.6rem 0;
+  flex-basis: 100%;
+  text-decoration: none;
+}
+.github__titulo:visited {
+  color: var(--caixa-texto);
+}
