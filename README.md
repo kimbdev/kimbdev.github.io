@@ -1,6 +1,6 @@
 # Meu Portfólio
 
-[Acessar](https://kimbdev.github.io/Portfolio)
+Site criado usando GitHub Pages
 
 ## Atualizações
 - Site utiliza Atomic Design
